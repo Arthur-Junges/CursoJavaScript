@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(119, 119, 235);
+}
+
+section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
