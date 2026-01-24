@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        p {
+            padding-bottom: 5px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome: <input id="inome" type="text" placeholder="Digite seu Nome" required></label></p><br>
+        <p><label for="isenha" >Senha: <input id="isenha" type="password" placeholder="Digite sua senha" minlength="3" maxlength="15" required ></label></p><br>
+        <input type="submit" value="Enviar">
+        <button type="button" onclick="gerarSenha()" id="random">Gerar Senha</button>
+        <button type="button" id="toggle">👁️</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
