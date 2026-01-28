@@ -6,3 +6,5 @@ engordar(p=0){
 
 amigo.engordar(5)
 console.log(`${amigo.nome} pesa ${amigo.peso}`)
+
+
