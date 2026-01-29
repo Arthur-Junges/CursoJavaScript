@@ -89,7 +89,9 @@ button:hover{
 
     #tela {
         width: 100vw;
-        min-height: 100vh; /* deixa crescer se precisar */
+        min-height: 100vh;
+        padding: 12px;
+
         position: static;
         transform: none;
 
@@ -97,45 +99,46 @@ button:hover{
         justify-content: center;
         align-items: flex-start;
 
-        padding-top: 40px;
         background: none;
     }
 
     #painel {
-        width: 95%;
-        max-width: 420px;
+        width: 100%;
+        max-width: 520px;   /* mais largo */
         height: auto;
 
-        border-radius: 18px;
-        padding: 24px 16px;
+        border-radius: 14px;
+        padding: 16px 14px;
 
-        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        box-shadow: 0 6px 18px rgba(0,0,0,0.5);
     }
 
     h1 {
-        font-size: 24px;
-        margin-bottom: 8px;
+        font-size: 20px;
+        padding: 8px 0 12px;
     }
 
     #formulario {
-        margin-top: 16px;
+        margin: 0;
     }
 
     input {
         width: 100%;
-        padding: 12px;
-        font-size: 15px;
+        padding: 10px;
+        font-size: 14px;
+        margin: 6px 0;
     }
 
     button {
         width: 100%;
-        padding: 13px;
-        font-size: 16px;
-        margin-top: 24px; /* nada de 90px */
+        padding: 11px;
+        font-size: 15px;
+        margin-top: 12px;
     }
 
     #link {
-        margin-top: 16px;
-        font-size: 13px;
+        margin-top: 10px;
+        font-size: 12px;
     }
 }
+
